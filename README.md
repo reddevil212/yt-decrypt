@@ -29,25 +29,8 @@ pip install -r requirements.txt
 ### As a Command Line Tool
 
 ```bash
-python yt_decrypt.py --url "YOUTUBE_VIDEO_URL"
+python standalone_decryptor.py <VIDEO_ID>
 ```
-
-Or to decrypt a signatureCipher:
-
-```bash
-python yt_decrypt.py --cipher "signatureCipher_string"
-```
-
-### As a Python Module
-
-```python
-from yt_decrypt import decrypt_signature
-
-decrypted_url = decrypt_signature(signature_cipher)
-print(decrypted_url)
-```
-
----
 
 ## Example
 
